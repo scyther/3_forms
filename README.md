@@ -5,10 +5,10 @@ The primary goal of this lab experiment is to create a simple clone of Google Fo
 
 ## Objectives
 - Understand the structure and purpose of HTML form elements.
-- Learn how to use different input types such as text, email, password, date, time, and more.
-- Explore the use of form controls like checkboxes, radio buttons, dropdowns, and file uploads.
-- Implement basic CSS to style form elements and enhance user experience.
-- Gain hands-on experience in creating a responsive and user-friendly form interface.
+- Utilize various input types and form controls effectively.
+- Implement CSS to style and enhance form elements.
+- Create a responsive and user-friendly form interface.
+- Apply form validations and attributes to ensure data integrity.
 
 ## HTML Form Tags Used
 Below are the form tags used in this experiment along with links for further exploration:
@@ -28,6 +28,17 @@ Below are the form tags used in this experiment along with links for further exp
 - **`<input type="color">`**: [MDN Web Docs - `<input type="color">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)
 - **`<input type="hidden">`**: [MDN Web Docs - `<input type="hidden">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
 - **`<button>`**: [MDN Web Docs - `<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+
+## Form Validations and Attributes
+In this experiment, we have applied various validations and attributes to the form elements to ensure data integrity and enhance user experience:
+
+- **Required Fields**: Ensures that the user fills out necessary fields before submission.
+- **Min/Max Values**: Sets boundaries for numerical inputs.
+- **Pattern Matching**: Validates input against a regular expression.
+- **Multiple Selection**: Allows multiple file uploads.
+- **Disabled/Read-Only**: Demonstrates fields that cannot be edited.
+- **Custom Submit Handling**: Overrides default form submission.
+- **Form No Validate**: Disables HTML5 validation for demonstration purposes.
 
 ## Conclusion
 This lab experiment provides a foundational understanding of HTML forms and their styling. By completing this exercise, students will be better equipped to create and style forms for various web applications. 
